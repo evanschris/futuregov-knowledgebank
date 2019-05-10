@@ -7,18 +7,18 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Collection.create(name: "Common terms")
-Collection.create(name: "Tech we've seen")
+Collection.create(name: "Knowledge Bank")
+Collection.create(name: "Alternative Tab")
 
 categories = [
-  "Technology general",
-  "Platforms & infrastructure",
-  "Organisation & roles",
-  "Software development"
+  "Facilitation",
+  "Ideation",
+  "Roadmaps",
+  "Synthesis"
 ]
 
 categories.each do |name |
   Category.create(name: name, collection_id: 1)
 end
 
-Category.create(name: "Common applications", collection_id: 2)
+Category.create(name: "Alternative options", collection_id: 2)
