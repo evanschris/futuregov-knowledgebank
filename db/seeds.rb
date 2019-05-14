@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Collection.create(name: "Knowledge Bank")
-Collection.create(name: "Alternative Tab")
+Collection.create(name: "Exemplar Knowledge")
+# Collection.create(name: "Alternative Tab")
 
 categories = [
   "Facilitation",
@@ -21,4 +21,4 @@ categories.each do |name |
   Category.create(name: name, collection_id: 1)
 end
 
-Category.create(name: "Alternative options", collection_id: 2)
+# Category.create(name: "Alternative options", collection_id: 2)

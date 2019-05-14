@@ -1,8 +1,10 @@
-# FutureGov technology wiki
+# FutureGov Knowledge Bank wiki
 
-**[LIVE VERSION HERE](https://fg-tech.herokuapp.com)**
+**[LIVE VERSION HERE](https://fg-knowledge-bank.herokuapp.com)**
 
-A basic technology wiki app for FutureGov-ers.
+This Knowledge Bank is a central repository that houses the examples, tools, templates, guides, etc that set the standard for what good practice looks like.
+
+This is built as a fork of **[FutureGov Tech](https://github.com/wearefuturegov/futuregov-technology)**
 
 It's a Rails app using Google OAuth to grant access to anyone with a @wearefuturegov.com Google Account.
 

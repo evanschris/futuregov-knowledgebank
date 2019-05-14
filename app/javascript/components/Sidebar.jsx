@@ -21,8 +21,8 @@ export default ({logoUrl, collections, currentSlug, currentCollectionId}) => {
     return (
         <aside className="sidebar">
             <div className="sidebar__left-pane">
-                <Collections 
-                    collections={collections} 
+                <Collections
+                    collections={collections}
                     currentCollection={currentCollection}
                     handleCollectionChange={handleCollectionChange}
                     />
@@ -30,13 +30,13 @@ export default ({logoUrl, collections, currentSlug, currentCollectionId}) => {
             <div className="sidebar__right-pane">
                 <a className="sidebar__masthead" href="/">
                     <img className="sidebar__logo" src={logoUrl} alt="Futuregov"/>
-                    <h1 className="sidebar__title">Technology</h1>
+                    <h1 className="sidebar__title">Knowledge Bank</h1>
                 </a>
-                <Contents 
+                <Contents
                     currentCollection={collections[currentCollection]}
                     currentSlug={currentSlug}
                     />
             </div>
         </aside>
-    )     
+    )
 }
